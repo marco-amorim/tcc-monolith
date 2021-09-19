@@ -1,7 +1,7 @@
-import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 import Counter from './components/Counter';
 import TodoList from './components/TodoList';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 const App = () => {
 	return (
@@ -12,6 +12,6 @@ const App = () => {
 			</BrowserRouter>
 		</div>
 	);
-}
+};
 
 export default App;
