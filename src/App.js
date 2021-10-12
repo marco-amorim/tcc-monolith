@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import Counter from './components/Counter';
 import TodoList from './components/TodoList';
 import { BrowserRouter, Route } from 'react-router-dom';
