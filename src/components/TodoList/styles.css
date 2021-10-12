@@ -42,3 +42,7 @@
 .todo-list__list {
 	margin-right: auto;
 }
+
+.todo-list__list--item {
+	text-align: left;
+}

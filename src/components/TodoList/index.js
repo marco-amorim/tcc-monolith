@@ -29,7 +29,11 @@ const TodoList = () => {
 			</form>
 			<ul className="todo-list__list">
 				{todos.map((todo, index) => {
-					return <li key={index}>{todo}</li>;
+					return (
+						<li className="todo-list__list--item" key={index}>
+							{todo}
+						</li>
+					);
 				})}
 			</ul>
 		</div>
