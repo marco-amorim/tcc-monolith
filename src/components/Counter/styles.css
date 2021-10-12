@@ -8,7 +8,7 @@
 	color: white;
 }
 
-button {
+.counter__button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,12 +26,12 @@ button {
 	user-select: none;
 }
 
-.decrement:hover {
+.counter__button--decrement:hover {
 	color: #efefef;
 	background-color: red;
 }
 
-.increment:hover {
+.counter__button--increment:hover {
 	color: #efefef;
 	background-color: green;
 }

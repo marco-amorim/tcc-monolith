@@ -17,8 +17,8 @@ const Counter = () => {
 		<div className="app">
 			<div className="counter">
 				<h1>Counter: {counter}</h1>
-				<button className="increment" onClick={handeIncrement}>+</button>
-				<button className="decrement" onClick={handleDecrement}>-</button>
+				<button className="counter__button counter__button--increment" onClick={handeIncrement}>+</button>
+				<button className="counter__button counter__button--decrement" onClick={handleDecrement}>-</button>
 			</div>
 		</div>
 	);
