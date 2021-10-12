@@ -16,15 +16,18 @@ const TodoList = () => {
 	return (
 		<div className="todo-list">
 			<h1>Todo List</h1>
-			<form onSubmit={addTodo}>
+			<form onSubmit={addTodo} className="todo-list__form">
 				<input
 					type="text"
+					className="todo-list__input"
 					value={todo}
 					onChange={(event) => setTodo(event.target.value)}
 				/>
-				<button type="submit">Add Todo</button>
+				<button className="todo-list__button" type="submit">
+					Add Todo
+				</button>
 			</form>
-			<ul>
+			<ul className="todo-list__list">
 				{todos.map((todo, index) => {
 					return <li key={index}>{todo}</li>;
 				})}
