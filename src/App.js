@@ -5,7 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 const App = () => {
 	return (
-		<div className="App">
+		<div className="app">
 			<BrowserRouter>
 				<Route exact path="/counter" component={Counter} />
 				<Route exact path="/todo-list" component={TodoList} />
